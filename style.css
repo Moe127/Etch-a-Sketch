@@ -1,0 +1,76 @@
+/* general styles */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    font-size: 1.1em;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    background-color: #B2DFDB;
+}
+.logo{
+    color: #fff;
+    
+
+}
+/* main content */
+#main {
+    margin: 0 auto;
+    width: 1226px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
+/* side tool bar */
+.tool-bar {
+    border-radius: 5px;
+    background-color: #009688;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#favcolor {
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+
+#square {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    outline: none;
+    background-color: #B2DFDB;
+}
+
+/* sketch pad */
+.container{
+    margin: 30px auto;
+    width: 90%;
+    border: 5px solid teal;
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+}
+.child {
+    width: 100%;
+    border: 0.2px solid #dde;
+}
+

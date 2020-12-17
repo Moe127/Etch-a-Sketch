@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <div class="tool-bar">
+            <h1 class="logo">Etch-A-Sketch</h1>
+            <button id="clear" class="btn">Clear</button>
+            <button id="eraser" class="btn">Eraser</button>
+            <button id="grid-line" class="btn">Show/Hide grid lines</button>
+            <button id="rain-bow" class="btn">Random Color</button>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#942c00">
+            <p>number of squares</p>
+            <input type="number" id="square" name="square" min="1" max="100" value="16">
+        </div>
+    
+        <div class="container">
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
